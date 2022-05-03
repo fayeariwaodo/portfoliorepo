@@ -139,7 +139,7 @@ html{
     width: 34px;
     right: 29px;
     border-radius: 6px;
-    bottom: 26px;
+    bottom: 25px;
     background: crimson;
     line-height: 38px;
     color: #fff;
@@ -151,11 +151,15 @@ html{
     text-align: center;
 
 }
-.scroll-up-btn .show{
+.scroll-up-btn.show{
     bottom: 30px;
     opacity: 1;
     pointer-events: auto;
 }
+.scroll-up-btn:hover{
+    filter: brightness(90%);
+}
+
 
 /* STYLIING WITH SIMILAR CODES */
 section{
@@ -199,7 +203,7 @@ section .title::after{
 }
 .about .about-content, .services .serv-content, .skills .skills-content, .contact .contact-content{
     display: flex;
-    flex-direction: wrap;
+    /* flex-direction: wrap; */
     align-items: center;
     color: #111;
     justify-content: space-between;
@@ -533,7 +537,7 @@ section .title::after{
         width: 100%;
         margin-bottom: 15px;
     }
-    .contact .right form .texarea{
+    .contact .right form .textarea{
        height: 80px;
        width: 100%;
     }
@@ -609,7 +613,7 @@ section .title::after{
         padding: 0 50px;
     }
 }
-@media (max-width: 947px){
+@media (max-width: 768px){
     .menu-btn{
         display: block;
         z-index: 999;
@@ -657,6 +661,7 @@ section .title::after{
     }
     .about .about-content .left{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         margin: 0 auto 60px;
     }
