@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,600&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -25,6 +24,10 @@ html{
 .navbar.sticky{
     padding: 15px 0;
     background: crimson;
+
+}
+.log{
+    width: 15%;
 }
 .navbar .max-width{
     display: flex;
@@ -39,9 +42,12 @@ html{
 .navbar .logo a span{
     color: crimson;
     transition: all 0.3s ease;
+    /* padding: 0 80px;
+    margin: auto; */
 }
 .navbar.sticky .logo a span{
     color: #fff;
+   
 }
 .navbar .menu li{
     list-style: none;
@@ -156,11 +162,11 @@ section{
     padding:100px 0;
 }
 
-.about .services .skills .projects, .contact,footer{
+/* .about .services .skills .projects, .contact,footer{
     font-family: "poppins", sans-serif;
-    /* background: rgb(34,34,34); */
+    background: rgb(34,34,34);
 
-}
+} */
 section .title{
     position: relative;
     /* color: #fff; */
@@ -169,7 +175,7 @@ section .title{
     font-weight: 400;
     margin-bottom: 60px ;
     padding-bottom: 20px;
-    font-family: 'ubuntu', sans-serif;
+    /* font-family: 'ubuntu', sans-serif; */
 }
 section .title::before{
     content: "";
@@ -598,7 +604,7 @@ section .title::after{
         width: 350px;
     }
 }
-@media (max-width: 991px) {
+@media (max-width: 1366px) {
     .max-width{
         padding: 0 50px;
     }
@@ -649,9 +655,25 @@ section .title::after{
     .about .about-content .column{
         width: 100%;
     }
+
+    
+
+.about .about-content, .services .serv-content, .contact .contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #111;
+    justify-content: space-between;
+}
+ .skills .skills-content{
+  display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    color: #111;
+    justify-content: space-between;
+ }
     .about .about-content .left{
         display: flex;
-        flex-direction: column;
         justify-content: center;
         margin: 0 auto 60px;
     }
