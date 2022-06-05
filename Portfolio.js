@@ -28,7 +28,7 @@ $(document).ready(function () {
   });
   // Typying Scroll script
   var typed = new Typed(".typing", {
-     strings:['Software Developer', 'Content Creator', 'Digital Marketing', 'System Analyst/IT Support', 'Freelancer'],
+     strings:['Software Engineer', 'Content Creator', 'Digital Marketing', 'System Analyst', 'Freelancer', 'IT Support', 'Digital Programs'],
      stypeSpeed:100,
      backSpeed:60,
      loop:true

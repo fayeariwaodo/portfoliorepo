@@ -1,0 +1,72 @@
+ /* HIREME STYLING */
+
+.fields {
+    padding: 5px, 8px;
+    justify-content: space-between;
+}
+
+ .button{
+    display: contents;
+}
+ .button button{
+    color: #fff;
+    border: 2px solid #a1045A;
+    background: #a1045A;
+    font-size: 20px;
+    padding: 8px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  
+}
+ .button :hover{
+    color: #a1045A;
+    background: none;
+}
+.card-hire{
+    width: calc(25% - 25px);
+    background: #111;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    left: 70vh;
+    top: 10vh;
+    
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+
+input[type="text"], input[type="email"] {
+    width: 300px;
+    height: 30px;
+    margin-top: 5px;
+   
+
+}
+textarea{
+    width: 300px;
+
+}
+
+.field.textarea {
+    margin-top: 5px;
+}
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+    
+}
