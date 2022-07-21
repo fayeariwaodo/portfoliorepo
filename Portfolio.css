@@ -424,6 +424,10 @@ section .title::after{
         overflow: hidden;
         transition: all 0.3s ease;
     }
+    .calc{
+        width: 100%;
+        height: 149px;
+    }
     .projects .carousel .card:hover{
         background: #a1045A;
     }
